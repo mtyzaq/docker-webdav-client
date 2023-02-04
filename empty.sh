@@ -1,4 +1,4 @@
-#! /usr/bin/env sh
+#! /usr/bin/env bash
 
 DEST=${WEBDRIVE_MOUNT:-/mnt/webdrive}
 . trap.sh
