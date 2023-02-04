@@ -1,4 +1,4 @@
-#! /usr/bin/env sh
+#! /usr/bin/env bash
 
 PERIOD=${1:-60}
 DEST=${WEBDRIVE_MOUNT:-/mnt/webdrive}
