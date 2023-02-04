@@ -20,7 +20,8 @@ ENV WEBDRIVE_MOUNT=/mnt/webdrive
 # DAVFS2_ASK_AUTH=0 will set the davfs2 configuration option ask_auth to 0 for
 # that share. See the manual for the list of available options.
 
-RUN apt --no-cache install ca-certificates davfs2 tini
+RUN apt-get update
+RUN apt-get -y install ca-certificates davfs2 tini
 
 COPY *.sh /usr/local/bin/
 
